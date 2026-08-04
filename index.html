@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Maria Fernanda Spinelli, estudante de Ciência da Computação e desenvolvedora em formação.">
+    <title>Maria Fernanda Spinelli | Portfólio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#inicio" class="logo">
+                <span>&lt;</span>MF<span>/&gt;</span>
+            </a>
+
+            <button class="menu-button" id="menu-button" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#trajetoria">Trajetória</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- INÍCIO -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-texto">
+                <p class="saudacao">Olá, eu sou</p>
+
+                <h1>Maria Fernanda <span>Spinelli</span></h1>
+                <h2>Estudante de Ciência da Computação</h2>
+
+                <p class="texto-dinamico">
+                    Eu <span id="texto-digitado"></span>
+                </p>
+
+                <p class="descricao-inicial">
+                    Desenvolvedora em formação, interessada em desenvolvimento de software, aplicações web, bancos de dados e criação de soluções por meio da tecnologia.
+                </p>
+
+                <div class="botoes-inicio">
+                    <a href="#projetos" class="botao botao-principal">
+                        Ver projetos <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                    <a href="https://github.com/mafspinelli-jpg" target="_blank" rel="noopener noreferrer" class="botao botao-secundario">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </div>
+
+                <div class="redes-sociais">
+                    <a href="https://github.com/mafspinelli-jpg" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mariafernandaspinelli" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:mafspinellii@gmail.com" aria-label="E-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- FOTO PRINCIPAL -->
+            <div class="inicio-imagem">
+                <div class="circulo-imagem">
+                    <img src="./assets/images/maria-fernanda.jpg" alt="Foto de Maria Fernanda Spinelli">
+                </div>
+                <div class="codigo codigo-1">&lt;/&gt;</div>
+                <div class="codigo codigo-2">{ }</div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="secao" id="sobre">
+            <div class="titulo-secao">
+                <p>CONHEÇA UM POUCO SOBRE MIM</p>
+                <h2>Sobre <span>mim</span></h2>
+            </div>
+
+            <div class="sobre-container">
+                <div class="sobre-texto">
+                    <h3>Tecnologia, aprendizado e evolução constante.</h3>
+                    <p>
+                        Sou estudante de Ciência da Computação na FEMA e desenvolvedora em formação, com interesse na criação de aplicações web, desenvolvimento de software, bancos de dados e soluções tecnológicas.
+                    </p>
+                    <p>
+                        Durante a graduação, venho desenvolvendo projetos utilizando HTML, CSS, JavaScript, C++, PHP, e MySQL. Também amplio meus conhecimentos em Python, Java, SQL e desenvolvimento de aplicações.
+                    </p>
+                    <p>
+                        Minha experiência profissional administrativa contribuiu para o desenvolvimento de habilidades como organização, comunicação, responsabilidade, trabalho em equipe e resolução de problemas.
+                    </p>
+                    <a href="#contato" class="botao botao-principal">
+                        Entre em contato <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="sobre-cards">
+                    <article class="sobre-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Desenvolvimento</h4>
+                        <p>Criação de aplicações e projetos utilizando tecnologias web.</p>
+                    </article>
+
+                    <article class="sobre-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h4>Banco de dados</h4>
+                        <p>Conhecimentos em SQL, MySQL, Oracle e modelagem de dados.</p>
+                    </article>
+
+                    <article class="sobre-card">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h4>Aprendizado contínuo</h4>
+                        <p>Interesse em aprender novas tecnologias e enfrentar desafios.</p>
+                    </article>
+
+                    <article class="sobre-card">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h4>Trabalho em equipe</h4>
+                        <p>Experiência com projetos, organização e colaboração.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGIAS -->
+        <section class="secao tecnologias" id="tecnologias">
+            <div class="titulo-secao">
+                <p>FERRAMENTAS E CONHECIMENTOS</p>
+                <h2>Minhas <span>tecnologias</span></h2>
+            </div>
+
+            <div class="tecnologias-container">
+                <article class="tecnologia-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <div class="tecnologias-lista">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </article>
+
+                <article class="tecnologia-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Programação</h3>
+                    <div class="tecnologias-lista">
+                        <span>PHP</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>MVC</span>
+                    </div>
+                </article>
+
+                <article class="tecnologia-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Banco de Dados</h3>
+                    <div class="tecnologias-lista">
+                        <span>SQL</span>
+                        <span>MySQL</span>
+                        <span>Oracle</span>
+                        <span>phpMyAdmin</span>
+                    </div>
+                </article>
+
+                <article class="tecnologia-card">
+                    <i class="fa-solid fa-toolbox"></i>
+                    <h3>Ferramentas</h3>
+                    <div class="tecnologias-lista">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>VS Code</span>
+                        <span>XAMPP</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="secao" id="projetos">
+            <div class="titulo-secao">
+                <p>PROJETOS E EXPERIÊNCIAS</p>
+                <h2>Meus <span>projetos</span></h2>
+            </div>
+
+            <div class="projetos-container">
+                <!-- PROJETO BROWNI-E -->
+                <article class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="./assets/images/brownie/brownie-2.jpeg" alt="Sistema de gestão da doceria Browni-e">
+                    </div>
+                    <div class="projeto-conteudo">
+                        <p class="projeto-tipo">SISTEMA WEB</p>
+                        <h3>Browni-e</h3>
+                        <p>
+                            Sistema de gestão para doceria, desenvolvido com arquitetura MVC, cadastro de produtos, categorias, clientes, pedidos e controle de estoque.
+                        </p>
+                        <div class="tags">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>MVC</span>
+                        </div>
+                        <button type="button" class="detalhes-projeto" data-projeto="brownie">
+                            Ver detalhes <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- PROJETO MEU AMIGO PET -->
+                <article class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="./assets/images/meu-amigo-pet/meu-amigo-pet-5.jpeg" alt="Projeto Meu Amigo Pet">
+                    </div>
+                    <div class="projeto-conteudo">
+                        <p class="projeto-tipo">SITE INSTITUCIONAL</p>
+                        <h3>Meu Amigo Pet</h3>
+                        <p>
+                            Site desenvolvido para apresentar uma organização de proteção animal, divulgar sua missão e organizar informações para os visitantes.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button type="button" class="detalhes-projeto" data-projeto="pet">
+                            Ver detalhes <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- PROJETO LIGA 404 -->
+                <article class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="./assets/images/liga-404/liga-404-7.png" alt="Liga Acadêmica 404 Not Found">
+                    </div>
+                    <div class="projeto-conteudo">
+                        <p class="projeto-tipo">EXPERIÊNCIA ACADÊMICA</p>
+                        <h3>Liga 404 Not Found</h3>
+                        <p>
+                            Atuação como Diretora Acadêmica em uma liga voltada ao desenvolvimento, à colaboração e ao incentivo da presença feminina na tecnologia.
+                        </p>
+                        <div class="tags">
+                            <span>Liderança</span>
+                            <span>Eventos</span>
+                            <span>Educação</span>
+                            <span>Comunidade</span>
+                        </div>
+                        <button type="button" class="detalhes-projeto" data-projeto="liga">
+                            Ver detalhes <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- TRAJETÓRIA -->
+        <section class="secao trajetoria" id="trajetoria">
+            <div class="titulo-secao">
+                <p>FORMAÇÃO E EXPERIÊNCIAS</p>
+                <h2>Minha <span>trajetória</span></h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-data">2025 — 2028</div>
+                    <div class="timeline-conteudo">
+                        <h3>Ciência da Computação</h3>
+                        <h4>FEMA</h4>
+                        <p>
+                            Formação voltada para programação, desenvolvimento de software, bancos de dados, algoritmos e tecnologias computacionais.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-data">2025 — Atual</div>
+                    <div class="timeline-conteudo">
+                        <h3>Auxiliar Administrativo</h3>
+                        <h4>Santa Casa de Assis</h4>
+                        <p>
+                            Atuação com organização de informações, acompanhamento de processos e apoio às demandas administrativas.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-data">2024 — 2025</div>
+                    <div class="timeline-conteudo">
+                        <h3>Auxiliar Administrativo</h3>
+                        <h4>Clube Brasileiro do Pastor Alemão</h4>
+                        <p>
+                            Organização de documentos, apoio às demandas internas e utilização de sistemas e ferramentas digitais.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-data">Liga Acadêmica</div>
+                    <div class="timeline-conteudo">
+                        <h3>Liga 404 Not Found</h3>
+                        <h4>Diretora Acadêmica</h4>
+                        <p>
+                            Organização de atividades, cursos e ações voltadas ao desenvolvimento acadêmico e ao incentivo da presença feminina na tecnologia.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="secao contato" id="contato">
+            <div class="titulo-secao">
+                <p>VAMOS CONVERSAR?</p>
+                <h2>Entre em <span>contato</span></h2>
+            </div>
+
+            <div class="contato-container">
+                <div class="contato-texto">
+                    <h3>Vamos construir algo juntos?</h3>
+                    <p>
+                        Estou aberta a oportunidades, projetos, estágios e experiências que contribuam para meu crescimento profissional na área de tecnologia.
+                    </p>
+
+                    <a href="mailto:mafspinellii@gmail.com" class="contato-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>mafspinellii@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mariafernandaspinelli" target="_blank" rel="noopener noreferrer" class="contato-item">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/mafspinelli-jpg" target="_blank" rel="noopener noreferrer" class="contato-item">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+
+                <form class="formulario" id="formulario" action="https://formsubmit.co/mafspinellii@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="Nova mensagem recebida pelo portfólio">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="true">
+
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        <small class="erro"></small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        <small class="erro"></small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                        <small class="erro"></small>
+                    </div>
+
+                    <button type="submit" class="botao botao-principal">
+                        Enviar mensagem <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <a href="#inicio" class="logo">
+            <span>&lt;</span>MF<span>/&gt;</span>
+        </a>
+        <p>Desenvolvido por Maria Fernanda com HTML, CSS e JavaScript.</p>
+        <p class="copyright">© 2026 — Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button id="voltar-topo" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-conteudo">
+            <button class="fechar-modal" id="fechar-modal" aria-label="Fechar">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="conteudo-modal"></div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
